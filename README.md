@@ -18,9 +18,9 @@
 
 # Extraction the data from the prvious source systems
 I have created three Jupyter Notebooks:
-•	DB: Extract the two tables from SQL-Server
-•	DL: Extract the csv files from DL directory
-•	API: Extract the currency data from the previous api
+*	DB: Extract the two tables from SQL-Server
+*	DL: Extract the csv files from DL directory
+*	API: Extract the currency data from the previous api
 Then I write the data from each source systems in a dataframes using pandas then write them into ‘Landing’ Folder, However before write them I added two columns to each dataframe:
 •	Extraction Date
 •	Source (DB / DL / API)
